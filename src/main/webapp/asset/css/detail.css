@@ -1,0 +1,436 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	margin: auto;
+	width: 865px;
+}
+
+body {
+	background-color: #d8e1cc;
+	overflow-x: hidden;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.image {
+	margin-left: 22px;
+	width: 699px;
+	height: 300px;
+	object-fit: cover;
+	object-position: 10% 50%;
+}
+
+@media screen and (max-width:600px) {
+	.steps {
+		line-height: normal;
+	}
+}
+
+h2 {
+	margin-bottom: 20px;
+}
+
+.Ingredients {
+	margin-left: 188px;
+	margin-top: 70px;
+	margin-top: 20px;
+}
+
+.steps {
+	margin-left: 188px;
+	margin-top: 42px;
+}
+
+.listingre {
+	line-height: 1.8;
+	margin-left: 60px
+}
+
+.step {
+	line-height: 1.8;
+	margin-left: 60px;
+	width: fit-content;
+}
+
+.comment {
+	width: 40%;
+	height: 100px;
+	padding: 10px;
+	background-color: #d0e2bc;
+	font: 1.4em/1.6em cursive;
+	color: #095484;
+	margin-left: 180px;
+}
+
+.addcomment {
+	margin: auto;
+	margin-left: 200px;
+	line-height: 3.5;
+	font-size: x-large;
+}
+
+.btn {
+	margin-left: 200px;
+	width: 100px;
+	height: 40px;
+	/* line-height: 3.2; */
+	margin-top: 10px;
+	padding: 10px 10px 10px 10px;
+	align-items: center;
+}
+
+#commentbox {
+	margin-left: 577px;
+	margin-top: 30px;
+	width: 40%;
+	height: 700px;
+}
+
+/* .whole-content{
+    outline-style: solid;
+  } */
+.comment-card {
+	position: absolute;
+	top: 487px;
+	right: 26px;
+	background-color: #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	width: 560px;
+	margin-left: 563px;
+}
+
+.textarea {
+	height: 800px;
+	width: 1000px;
+}
+
+.comment-card img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.comment-content h3 {
+	margin: 0;
+	font-size: 1.2rem;
+}
+
+.comment-content p {
+	margin: 10px 0 0;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+#Varities {
+	height: 40px;
+}
+/* #delete button{
+    width:300px;
+    height:100px;
+  } */
+#edit {
+	border: 1px solid black;
+	background-color: rgb(22, 80, 22);
+	color: #fff;
+}
+
+#delete {
+	border: 1px solid black;
+	margin-left: 20px;
+	background-color: rgb(22, 80, 22);
+	color: #fff;
+}
+/* #com{
+    float: right;
+    position: absolute;
+    top: 7px;
+    right: -273px;
+    font-size: 18px;
+} */
+.recipe-details {
+	margin-top: 40px;
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	margin-right: 616px;
+	margin-top: 34px
+}
+
+.comment-section {
+	padding: 10px;
+	/* height: fit-content; */
+	/* width: fit-content; */
+	position: relative;
+	bottom: 921px;
+	left: 613px;
+}
+
+#comment-heading {
+	margin-left: 114px;
+	margin-top: 41px;
+	padding-bottom: 10px;
+}
+
+.Veg-Recipe {
+	display: inline;
+	float: right;
+	margin-bottom: 30px;
+	width: 100px;
+	border: none;
+	border-radius: 20px;
+	height: 50px;
+	margin-right: -6px;
+	cursor: pointer;
+	background-color: #184e26;
+	color: white;
+	font-weight: bolder;
+	margin-top: 4px;
+}
+
+/* non-btn */
+.non-veg {
+	display: inline;
+	float: right;
+	margin-bottom: 30px;
+	width: 110px;
+	border: none;
+	border-radius: 20px;
+	height: 50px;
+	margin-right: 20px;
+	cursor: pointer;
+	background-color: #184e26;
+	color: white;
+	font-weight: bolder;
+	margin-left: 20px;
+	margin-top: 3px;
+}
+/* snack-btn */
+.snacks {
+	display: inline;
+	float: right;
+	margin-bottom: 30px;
+	width: 100px;
+	border: none;
+	border-radius: 20px;
+	height: 50px;
+	margin-right: 20px;
+	cursor: pointer;
+	background-color: #184e26;
+	color: white;
+	font-weight: bolder;
+	margin-top: 4px;
+	margin-left: 50px;
+}
+
+.menu {
+	height: 16px;
+	margin-left: -5px;
+	margin-top: -6pX;
+}
+
+.Veg-Recipe {
+	display: inline;
+	float: right;
+	margin-bottom: 30px;
+	width: 100px;
+	border: none;
+	border-radius: 20px;
+	height: 50px;
+	margin-right: 26px;
+	cursor: pointer;
+	background-color: #184e26;
+	color: white;
+	font-weight: bolder;
+	margin-top: 4px
+}
+
+.myrecipes {
+	display: inline;
+	float: right;
+	margin-bottom: 30px;
+	width: 100px;
+	border: none;
+	border-radius: 20px;
+	height: 50px;
+	margin-right: 22px;
+	cursor: pointer;
+	background-color: #184e26;
+	color: white;
+	font-weight: bolder;
+	margin-top: 4px
+}
+
+.non-veg {
+	display: inline;
+	float: right;
+	margin-bottom: 30px;
+	width: 110px;
+	border: none;
+	border-radius: 20px;
+	height: 50px;
+	margin-right: 20px;
+	cursor: pointer;
+	background-color: #184e26;
+	color: white;
+	font-weight: bolder;
+	margin-left: 20px;
+	margin-top: 3px;
+}
+
+#comments {
+	width: 561px;
+	height: 118px;
+	margin-left: 105px;
+}
+
+#submit {
+	margin-left: 80px;
+	margin-top: 30px;
+}
+
+div.ex1 {
+	
+	width: 530px;
+	height: 540px;
+	overflow: scroll;
+	position: absolute;
+	right: 0px;
+	top: 296px;
+	margin-right: 38px;
+	margin-top: 80px;
+}
+
+.comment-card {
+	background-color: #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-top: -454px;
+	width: 431px;
+}
+
+.comment-box {
+	padding-bottom: 40px;
+}
+
+#send {
+	margin-left: 111px;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 17px;
+	
+}
+
+.logo {
+	border-radius: 25px;
+}
+
+h1 {
+	color: #04240d;
+	font-size: x-large;
+	font-weight: bolder;
+}
+
+.header {
+	align-items: center;
+	display: flex;
+}
+
+form {
+	margin-left: 808px;
+}
+
+.rating {
+	display: inline-block;
+}
+
+.rating input {
+	display: none;
+}
+
+.rating label {
+	cursor: pointer;
+	width: 25px;
+	height: 25px;
+	margin: 0;
+	padding: 0;
+	font-size: 25px;
+	line-height: 25px;
+	text-align: center;
+}
+
+.rating label:before {
+	content: '\2605';
+	color: #ddd;
+}
+
+.rating input:checked ~ label:before {
+	color: #ffcc00;
+}
+
+.whole-content {
+	margin-left: -51px;
+	width: 699px;
+	height: 300px;
+	object-fit: cover;
+	object-position: 10% 50%;
+}
+
+.recipe-details-container {
+	margin: auto;
+    width: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin-right: 616px;
+    margin-top: 34px;
+    max-height: 721px;
+    overflow: scroll;
+    height: 900px;
+    position: absolute;
+    margin-left:30px;
+}
+
+.whole-content img {
+	max-width: 100%;
+	height: auto;
+}
+
+ #comment-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#comment-card #username {
+    font-weight: bold;
+    color: #333;
+}
+
+#comment-card #comment {
+    color: #555;
+}
+
+#comment-card #createdtime {
+    color: #777;
+    font-size: 12px;
+}
+.recipe-details-container::-webkit-scrollbar {
+  display: none;
+}
+
+div.ex1::-webkit-scrollbar {
+  display: none;
+}
